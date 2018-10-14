@@ -13,4 +13,5 @@ We develop air quality measurement stations at [Fablab Sorbonne](http://www.fabl
 The project is currently under active development. Feel free to contact us if you want to join !
 
 ## License
-[!License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)
+
+[!License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc/4.0/)	
