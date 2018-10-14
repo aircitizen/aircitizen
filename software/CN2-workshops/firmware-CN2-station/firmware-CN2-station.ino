@@ -161,8 +161,8 @@ void draw(){
   // Date and time
   u8g.setPrintPos(XStartPosition, YStartPosition + sautligne*2);
   u8g.print((char*)OledData_buf[1]);
-  u8g.setPrintPos(XStartPosition, YStartPosition + sautligne*3);
-  u8g.print((char*)OledData_buf[2]);
+  //u8g.setPrintPos(XStartPosition, YStartPosition + sautligne*3);
+  //u8g.print((char*)OledData_buf[2]);
   // RH and Temperature
   u8g.setPrintPos(XStartPosition, YStartPosition + sautligne*4);
   u8g.print("T=");u8g.print(*((float*)OledData_buf[4]),1); u8g.print(" "); u8g.print(UNITS[5]);  
@@ -267,6 +267,8 @@ void loop() {
   else {INDIC = 1;}
   
   u8g.firstPage();
+  draw();
+  
   do {  
     draw();
   } while( u8g.nextPage() );
