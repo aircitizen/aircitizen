@@ -1,8 +1,8 @@
-# hardware
+# Hardware
 
-This is the hardware page of the [aircitizen](http://www.aircitizen.org) project. 
+This is the hardware page of the [AirCitizen](http://www.aircitizen.org) project. 
 
-### solderless arduino based standalone station
+### standalone station
 
 We developped this station for the Cité des sciences et de l'industrie and the turfu workshops.
 
@@ -15,5 +15,5 @@ We developped this station for the Cité des sciences et de l'industrie and the 
 7. I2C OLED display
 8. uSD card reader/writer (non grove) with 8Go SD card
 
-
+The station can be assembled by connecting the various components to the shield using grove cable. The SD reader/writer is the exception. It uses the SPI protocol to communicate with the MEGA and must be connected to the Arduino using jumper cables.   
 
