@@ -156,21 +156,21 @@ void draw(){
   //SeeedOled.setTextXY(2, 0);
   //SeeedOled.putString((char*)OledData_buf[2]);
   // RH and Temperature
-  SeeedOled.setTextXY(3, 0);
-  SeeedOled.putString("T=");SeeedOled.putNumber(*((float*)OledData_buf[4])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[5]);  
-  SeeedOled.putString(" ");
-  SeeedOled.putString("RH=");SeeedOled.putNumber(*((float*)OledData_buf[5])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[6]);
-  SeeedOled.putString(" ");
+  //SeeedOled.setTextXY(3, 0);
+  //SeeedOled.putString("T=");SeeedOled.putNumber(*((float*)OledData_buf[4])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[5]);  
+  //SeeedOled.putString(" ");
+  //SeeedOled.putString("RH=");SeeedOled.putNumber(*((float*)OledData_buf[5])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[6]);
+  //SeeedOled.putString(" ");
   
- SeeedOled.setTextXY(4,0);
+  SeeedOled.setTextXY(3,0);
   SeeedOled.putString(DATA_UPDATE[7]); SeeedOled.putString(":   ");  
   SeeedOled.putNumber(*((float*)OledData_buf[6])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[7]);
 
-  SeeedOled.setTextXY(5, 0);
+  SeeedOled.setTextXY(4, 0);
   SeeedOled.putString(DATA_UPDATE[8]); SeeedOled.putString(": ");  
   SeeedOled.putNumber(*((float*)OledData_buf[7])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[8]);
 
-  SeeedOled.setTextXY(6,0);
+  SeeedOled.setTextXY(5,0);
   SeeedOled.putString(DATA_UPDATE[9]); SeeedOled.putString(":  ");  
   SeeedOled.putNumber(*((float*)OledData_buf[8])); SeeedOled.putString(" "); SeeedOled.putString(UNITS[9]);  
 }
