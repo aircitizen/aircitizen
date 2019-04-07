@@ -5,7 +5,7 @@
 //
 // DHT22 : A0
 // GPS : D2
-// PMS : D8
+// PMS : D6
 // OLED : I2C
 //
 

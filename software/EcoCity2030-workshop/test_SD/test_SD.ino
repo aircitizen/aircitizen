@@ -23,7 +23,7 @@
 #include <SPI.h>
 #include <SD.h>
 
-const int chipSelect = 53;
+const int chipSelect = 4;
 
 void setup() {
   // Open serial communications and wait for port to open:
@@ -73,12 +73,3 @@ void loop() {
     Serial.println("error opening datalog.txt");
   }
 }
-
-
-
-
-
-
-
-
-
