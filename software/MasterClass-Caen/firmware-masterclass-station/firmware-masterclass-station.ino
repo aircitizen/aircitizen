@@ -1,4 +1,4 @@
-// Aircitizen - EcoCity station
+// Aircitizen -masterclass-station
 //
 // Authors: Bao Lam Le & Vincent Dupuis
 // License CC BY-NC
