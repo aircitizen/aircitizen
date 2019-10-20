@@ -1,5 +1,7 @@
 # Hardware
 
+<!---just a comment --->
+
 This is the hardware page of the [AirCitizen](http://www.aircitizen.org) project. 
 
 ### standalone mobile station
@@ -15,8 +17,9 @@ We developped this station for the Cité des sciences et de l'industrie and the 
 7. I2C OLED display
 8. uSD card reader/writer (non grove) with 8Go SD card
 
-![aircitizen station for CN2 workshops](../photos/aircitizen-CN2-inside.png "aircitizen station for CN2 workshops")
-
+<p align="center">
+	<img src="../photos/aircitizen-CN2-inside.png" width="600">
+</p>
 
 The station can be assembled by connecting the various components to the shield using grove cable. The SD reader/writer is the exception. It uses the SPI protocol to communicate with the MEGA and must be connected to the Arduino using jumper cables.
 
@@ -24,8 +27,10 @@ The station can be assembled by connecting the various components to the shield 
 
 We adapted the [Luftdaten](https://luftdaten.info/) to include a noise sensor for a deployment in the north of Paris. 
 
-![aircitizen fixed station](../photos/aircitizen-station-fixe.png | width=400)
-<img src="../photos/aircitizen-station-fixe.png" width="400">
+<p align="center">
+	<img src="../photos/aircitizen-station-fixe.png" width="600">
+</p>
+
 
 # Bill of Materials
 ### fixed station rev 1
