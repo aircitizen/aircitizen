@@ -24,7 +24,7 @@ The station can be assembled by connecting the various components to the shield 
 
 We adapted the [Luftdaten](https://luftdaten.info/) to include a noise sensor for a deployment in the north of Paris. 
 
-![aircitizen fixed station](../photos/aircitizen-station-fixe.png "aircitizen fixed station")
+![aircitizen fixed station](../photos/aircitizen-station-fixe.png =250x "aircitizen fixed station")
 
 # Bill of Materials
 ### fixed station rev 1
