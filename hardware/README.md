@@ -1,10 +1,8 @@
-# Hardware
-
 <!---just a comment --->
 
 This is the hardware page of the [AirCitizen](http://www.aircitizen.org) project. 
 
-### standalone mobile station
+#  Mobile station
 
 We developped this station for the Cité des sciences et de l'industrie and the turfu workshops.
 
@@ -23,7 +21,7 @@ We developped this station for the Cité des sciences et de l'industrie and the 
 
 The station can be assembled by connecting the various components to the shield using grove cable. The SD reader/writer is the exception. It uses the SPI protocol to communicate with the MEGA and must be connected to the Arduino using jumper cables.
 
-### fixed station (requires power supply and wifi)
+# Fixed station (requires power supply and wifi)
 
 We adapted the [Luftdaten](https://luftdaten.info/) to include a noise sensor for a deployment in the north of Paris. 
 
@@ -32,10 +30,16 @@ We adapted the [Luftdaten](https://luftdaten.info/) to include a noise sensor fo
 </p>
 
 
-# Bill of Materials
+## Bill of Materials
 ### fixed station rev 1
 
 Component Refs | Type            | Value      | Package | Qty | Supplier #
 -------------- | --------------- | ---------- | ------- | :-: | ------------
 MCU            | NodeMCU         | -          | -    |  1  | [Amazon](https://www.amazon.fr/ESP8266-nodeMCU/s?k=ESP8266+nodeMCU)
 SDS011         | SDS011 dust sensor | -       | -    |  1  | -
+
+</br></br>
+
+To be completed.
+
+
